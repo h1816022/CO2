@@ -1,0 +1,36 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.26.03.04",
+	"FriendlyName" : "CRIWARE Plugin",
+	"Description" : "CRIWARE Plugin for Unreal Engine 4",
+	"Category" : "Misc",
+	"CreatedBy" : "CRI Middleware Co., Ltd.",
+	"CreatedByURL" : "http://www.cri-mw.co.jp/",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "CriWareRuntime",
+			"Type" : "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name" : "CriWareEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostEngineInit"
+		},
+		{
+			"Name" : "CriWareSequencer",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostEngineInit"
+		} 
+		
+	]
+}
