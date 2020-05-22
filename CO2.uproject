@@ -7,7 +7,10 @@
 		{
 			"Name": "CO2",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
@@ -41,6 +44,14 @@
 		},
 		{
 			"Name": "MeshEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "SoundUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Synthesis",
 			"Enabled": true
 		}
 	]
